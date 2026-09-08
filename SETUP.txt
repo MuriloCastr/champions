@@ -1,0 +1,9 @@
+A página principal é index.html.
+
+Para sincronizar os dados entre seus dispositivos usando Google Apps Script:
+1. Abra script.google.com e crie um projeto.
+2. Cole o conteúdo de Code.gs.
+3. Implante como Web App: executar como você; acesso conforme a conta que você usar para o painel.
+4. Copie a URL /exec e coloque em const API='' no index.html.
+
+Sem API configurada, o painel funciona normalmente e salva os dados no navegador (localStorage).
